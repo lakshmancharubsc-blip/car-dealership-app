@@ -1,6 +1,6 @@
-# Car Dealership Review Application
+# fullstack_developer_capstone
 
-This project is a Django and React based Car Dealership Review Application.
+This is a Django and React-based full-stack application for car dealership listings and customer reviews.
 
 ## Features
 - User Registration and Login
