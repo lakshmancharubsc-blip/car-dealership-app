@@ -4,41 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>About Us</h1>
+<div class="container mt-5">
+    <h1 class="text-center mb-4">About Us</h1>
 
-    <p>
+    <p class="text-center">
         Welcome to the Car Dealership Review Application. Our platform helps customers
         find car dealerships, explore dealer information, and share their experiences
         through reviews.
     </p>
 
-    <div>
-        <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70" alt="Team Member" width="250">
-        <h2>Lakshman Charu</h2>
-        <h3>Project Manager</h3>
-        <p>Leads the project and coordinates development activities.</p>
-        <p>Email: lakshman@example.com</p>
-    </div>
+    <div class="row mt-4">
 
-    <div>
-        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e" alt="Team Member" width="250">
-        <h2>Rahul Kumar</h2>
-        <h3>Frontend Developer</h3>
-        <p>Develops responsive user interfaces using React and modern web technologies.</p>
-        <p>Email: rahul@example.com</p>
-    </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70" class="card-img-top" alt="Lakshman Charu">
+                <div class="card-body">
+                    <h5 class="card-title">Lakshman Charu</h5>
+                    <h6>Project Manager</h6>
+                    <p>Leads the project and coordinates development activities.</p>
+                    <p>Email: lakshman@example.com</p>
+                </div>
+            </div>
+        </div>
 
-    <div>
-        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330" alt="Team Member" width="250">
-        <h2>Priya Sharma</h2>
-        <h3>Backend Developer</h3>
-        <p>Builds and maintains Django APIs and database integration.</p>
-        <p>Email: priya@example.com</p>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e" class="card-img-top" alt="Rahul Kumar">
+                <div class="card-body">
+                    <h5 class="card-title">Rahul Kumar</h5>
+                    <h6>Frontend Developer</h6>
+                    <p>Develops responsive user interfaces using React and modern web technologies.</p>
+                    <p>Email: rahul@example.com</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330" class="card-img-top" alt="Priya Sharma">
+                <div class="card-body">
+                    <h5 class="card-title">Priya Sharma</h5>
+                    <h6>Backend Developer</h6>
+                    <p>Builds and maintains Django APIs and database integration.</p>
+                    <p>Email: priya@example.com</p>
+                </div>
+            </div>
+        </div>
+
     </div>
+</div>
 
 </body>
 </html>
